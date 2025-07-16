@@ -32,7 +32,6 @@ The project follows a clean architecture pattern with dependency injection:
     loan.dto.go        # Data Transfer Objects
   /handlers
     loan.handler.go    # HTTP Request Handlers
-  /middlewares         # HTTP Middlewares
   /models
     loan.model.go      # Database Models
   /repositories
@@ -41,8 +40,6 @@ The project follows a clean architecture pattern with dependency injection:
     loan.route.go      # API Routes
   /services
     loan.service.go    # Business Logic
-/pkg
-  /utils              # Utility functions
 ```
 
 ## API Endpoints
